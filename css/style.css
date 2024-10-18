@@ -40,9 +40,9 @@ div .row{
 }
 
 
-main{
+section.bg-blue{
   background-color: blue;
-  height: 300px;
+  padding-bottom: 50px;
   padding-top: 50px;
 }
 
@@ -85,15 +85,7 @@ main{
   display: flex;
 }
 
-.col{
-  
-  padding: 0 10px;
-  
-}
 
-.col-1{
-  padding: 0 10px;
-}
 
 .a-flex{
   display: flex;
