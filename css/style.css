@@ -9,3 +9,21 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 20px;
 }
+
+.header{
+  background-color: rgb(107, 107, 203);
+  font-weight: bold;
+}
+
+.table{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid green;
+}
+
+.row{
+  display: flex;
+  width: 100%;
+}
+
