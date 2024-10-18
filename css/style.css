@@ -61,7 +61,7 @@ section.bg-grey{
 
 
 .debug{
-  background-color: rgb(214, 97, 97);
+  background-color: rgb(221, 66, 66);
   border: 1px dashed black;
 }
 
@@ -73,7 +73,6 @@ section.bg-grey{
 
 .debug-border{
   border: 1px dashed black;
-
 }
 
 header .flex-center{
@@ -86,15 +85,33 @@ header .flex-center{
   
 }
 
+main .acol{
+  width: 40%;
+  background-color: rgb(91, 66, 193);
+}
+
+main .qcol{
+  width: 15%;
+  background-color: aliceblue;
+}
+
 
 
 main .rcol{
+  background-color: aqua;
   width: 40%;
 }
 
 main .lcol{
+  background-color: chartreuse;
   width: 60%;
 }
+
+main .dcol{
+  background-color: rgb(223, 130, 225);
+  width: 100%;
+}
+
 
 .colflex{
   display: flex;
