@@ -13,6 +13,7 @@ header{
   margin: 0 auto;
   max-width: 900px;
   
+  
 }
 
 .debug{
@@ -20,10 +21,36 @@ header{
   border: 1px solid black;
 }
 
+.navbar .row {
+  height: 50px;
+  justify-content: space-between;
+}
+
 .row{
   display: flex;
 }
 
+.col{
+  padding: 0 10px;
+  
+}
+
 .c-flex{
+
   display: flex;
 }
+
+header nav ul{
+  display: flex;
+  list-style: none;
+}
+
+header nav ul a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: rgb(167, 187, 52);
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+
