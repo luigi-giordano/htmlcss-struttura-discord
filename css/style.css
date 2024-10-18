@@ -19,18 +19,18 @@ header{
 
 .container .top{
   margin-top: 200px;
-  
-  
-
 
 }
+
+.container .green{
+  margin-top: 200px;
+}
+
 main .container{
   display: flex;
   justify-content: center;
   margin: 0 auto;
   max-width: 600px;
-  
-  
   
 }
 
@@ -46,17 +46,28 @@ section.bg-blue{
   padding-top: 50px;
 }
 
+section.bg-green{
+  background-color: white;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+section.bg-grey{
+  background-color: grey;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 
 
 .debug{
   background-color: rgb(214, 97, 97);
-  border: 1px solid black;
+  border: 1px dashed black;
 }
 
 .navbar .row{
   border: 1px solid black;
   justify-content: space-between;
-  
 }
 
 
@@ -65,23 +76,45 @@ section.bg-blue{
 
 }
 
+header .flex-center{
+  height: 80px;
+
+}
+
+.column{
+  padding: 20px;
+  
+}
+
+
+
+main .rcol{
+  width: 40%;
+}
+
+main .lcol{
+  width: 60%;
+}
+
+.colflex{
+  display: flex;
+}
+
 .flex-center{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
-}
-
-
-.top .row{
   
-  height: 200px;
-
-
 }
+
 
 .row{
-  
+  height: 0 auto;
+}
+
+
+
+.logo{
   display: flex;
 }
 
@@ -97,7 +130,6 @@ section.bg-blue{
 header nav ul{
   display: flex;
   list-style: none;
-  
 }
 
 
