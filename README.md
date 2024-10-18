@@ -1,0 +1,1 @@
+Creare la struttura base del sito Discord concetrandoci sulla struttura a blocchi.
