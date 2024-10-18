@@ -13,7 +13,10 @@ header{
   margin: 0 auto;
   max-width: 900px;
   
-  
+}
+main{
+  background-color: blue;
+  height: 300px;
 }
 
 .debug{
@@ -21,10 +24,16 @@ header{
   border: 1px solid black;
 }
 
-.navbar .row {
+.navbar .row{
   border: 1px solid black;
   height: 50px;
   justify-content: space-between;
+}
+
+.top .row{
+  height: 200px;
+  
+
 }
 
 .row{
@@ -38,10 +47,12 @@ header{
   
 }
 
-.c-flex{
-
+.a-flex{
   display: flex;
 }
+
+
+
 
 header nav ul{
   display: flex;
@@ -49,11 +60,12 @@ header nav ul{
   
 }
 
+
 header nav ul a{
-  
+  display: flex;
   text-decoration: none;
   color: white;
-  text-transform: uppercase;
+  text-transform: lowercase;
   background-color: rgb(167, 187, 52);
   margin: 0 20px;
   padding: 5px 10px;
