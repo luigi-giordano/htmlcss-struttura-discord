@@ -13,11 +13,40 @@ header{
   margin: 0 auto;
   max-width: 900px;
   
+  
 }
+
+
+.container .top{
+  margin-top: 200px;
+  
+  
+
+
+}
+main .container{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
+  
+  
+  
+}
+
+div .row{
+  display: flex;
+  justify-content: center;
+}
+
+
 main{
   background-color: blue;
   height: 300px;
+  padding-top: 50px;
 }
+
+
 
 .debug{
   background-color: rgb(214, 97, 97);
@@ -26,13 +55,28 @@ main{
 
 .navbar .row{
   border: 1px solid black;
-  height: 50px;
   justify-content: space-between;
+  
 }
 
+
+.debug-border{
+  border: 1px dashed black;
+
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+
 .top .row{
-  height: 200px;
   
+  height: 200px;
+
 
 }
 
@@ -42,9 +86,13 @@ main{
 }
 
 .col{
-  border: 1px solid black;
+  
   padding: 0 10px;
   
+}
+
+.col-1{
+  padding: 0 10px;
 }
 
 .a-flex{
@@ -65,9 +113,9 @@ header nav ul a{
   display: flex;
   text-decoration: none;
   color: white;
-  text-transform: lowercase;
+  text-transform: uppercase;
   background-color: rgb(167, 187, 52);
-  margin: 0 20px;
+  margin: 4 20px;
   padding: 5px 10px;
 }
 
