@@ -141,6 +141,10 @@ main .dcol{
   display: flex;
 }
 
+footer{
+  background-color: rgba(39, 36, 36, 0.975);
+}
+
 
 
 
