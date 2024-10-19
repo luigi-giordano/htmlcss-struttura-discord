@@ -9,21 +9,23 @@ header{
   height: 80px;
 }
 
-.container{
-  margin: 0 auto;
-  max-width: 900px;
-  
-  
+header nav ul{
+  display: flex;
+  list-style: none;
 }
 
-
-.container .top{
-  margin-top: 200px;
-
+header nav ul a{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: rgb(167, 187, 52);
+  margin: 4 20px;
+  padding: 5px 10px;
 }
 
-.container .green{
-  margin-top: 200px;
+header .flex-center{
+  height: 80px;
 }
 
 main .container{
@@ -31,14 +33,40 @@ main .container{
   justify-content: center;
   margin: 0 auto;
   max-width: 600px;
-  
+}
+
+main .rcol{
+  background-color: aqua;
+  width: 40%;
+}
+
+main .lcol{
+  background-color: chartreuse;
+  width: 60%;
+}
+
+main .dcol{
+  background-color: rgb(223, 130, 225);
+  width: 100%;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 900px; 
+}
+
+.container .top{
+  margin-top: 200px;
+}
+
+.container .green{
+  margin-top: 200px;
 }
 
 div .row{
   display: flex;
   justify-content: center;
 }
-
 
 section.bg-blue{
   background-color: blue;
@@ -58,109 +86,94 @@ section.bg-grey{
   padding-bottom: 50px;
 }
 
-
-
-.debug{
-  background-color: rgb(221, 66, 66);
-  border: 1px dashed black;
-}
-
-.navbar .row{
-  border: 1px solid black;
-  justify-content: space-between;
-}
-
-
-.debug-border{
-  border: 1px dashed black;
-}
-
-header .flex-center{
-  height: 80px;
-
-}
-
-.column{
-  padding: 20px;
-  
-}
-
-main .acol{
-  width: 40%;
-  background-color: rgb(91, 66, 193);
-}
-
-main .qcol{
-  width: 15%;
-  background-color: aliceblue;
-}
-
-
-
-main .rcol{
-  background-color: aqua;
-  width: 40%;
-}
-
-main .lcol{
-  background-color: chartreuse;
-  width: 60%;
-}
-
-main .dcol{
-  background-color: rgb(223, 130, 225);
-  width: 100%;
-}
-
-
 .colflex{
   display: flex;
+  margin: 0 auto;
 }
 
 .flex-center{
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-
 
 .row{
   height: 0 auto;
 }
 
-
-
 .logo{
   display: flex;
 }
 
-
-
 .a-flex{
   display: flex;
+}
+
+.debug{
+  background-color: rgb(221, 66, 66);
+  border: 1px solid black;
+}
+
+
+.navbar .row{
+  border: 1px solid black;
+  justify-content: space-between;
+}
+
+.debug-border{
+  border: 1px dashed black;
+}
+
+.column{
+  padding: 20px;
 }
 
 footer{
   background-color: rgba(39, 36, 36, 0.975);
 }
 
-
-
-
-header nav ul{
+section.bg-black{
   display: flex;
-  list-style: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  max-width: 900px;
 }
 
-
-header nav ul a{
-  display: flex;
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-  background-color: rgb(167, 187, 52);
-  margin: 4 20px;
-  padding: 5px 10px;
+footer .acol{
+  width: 40%;
+  background-color: rgb(91, 66, 193);
 }
 
+footer .qcol{
+  width: 15%;
+  background-color: aliceblue;
+}
+
+footer .row{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.container-footer{
+  border: 1px solid black;
+  margin: 0 auto;
+  background-color: rgb(40, 39, 39);
+}
+
+.row-footer{
+  display: flex;
+  background-color: rgb(41, 170, 199);
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.col-logo{
+  border: 1px solid black;
+}
+
+.col-button{
+  border: 1px solid black;
+}
