@@ -5,7 +5,7 @@
 }
 
 header{
-  background-color: bisque;
+  background-color: #3160e0;
   height: 80px;
 }
 
@@ -63,7 +63,7 @@ main .dcol{
   margin-top: 200px;
 }
 
-div .row{
+.row{
   display: flex;
   justify-content: center;
 }
