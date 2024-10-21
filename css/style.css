@@ -28,6 +28,24 @@ header .flex-center{
   height: 80px;
 }
 
+.container{
+  margin: 0 auto;
+  max-width: 900px; 
+}
+
+.container .top{
+  margin-top: 200px;
+}
+
+.container .green{
+  margin-top: 200px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
 main .container{
   display: flex;
   justify-content: center;
@@ -48,24 +66,6 @@ main .lcol{
 main .dcol{
   background-color: rgb(223, 130, 225);
   width: 100%;
-}
-
-.container{
-  margin: 0 auto;
-  max-width: 900px; 
-}
-
-.container .top{
-  margin-top: 200px;
-}
-
-.container .green{
-  margin-top: 200px;
-}
-
-.row{
-  display: flex;
-  justify-content: center;
 }
 
 section.bg-blue{
