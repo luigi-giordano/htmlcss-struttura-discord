@@ -21,7 +21,7 @@ header nav ul a{
   text-transform: uppercase;
   background-color: rgb(167, 187, 52);
   margin: 4 20px;
-  padding: 5px 10px;
+  padding: 6px 30px;
 }
 
 header .flex-center{
@@ -49,8 +49,6 @@ header .flex-center{
 main .container{
   display: flex;
   justify-content: center;
-  margin: 0 auto;
-  max-width: 600px;
 }
 
 main .rcol{
@@ -158,7 +156,6 @@ footer .row{
 
 .container-footer{
   border: 1px solid black;
-  margin: 0 auto;
   background-color: rgb(40, 39, 39);
 }
 
